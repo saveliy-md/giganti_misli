@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QMessageBox aboutBox(this);
     aboutBox.setWindowTitle("Справка");
-    aboutBox.setText("Приложение разработала\n\nАндрейковец Яна");
+    aboutBox.setText("Приложение разработали\n\nАндрейковец Яна,Сеноженская Арина, Матюш Савелий");
     aboutBox.exec();
 
     setFixedSize(800, 600);
