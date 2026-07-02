@@ -1,0 +1,17 @@
+# Игнорирование сборок Qt Creator
+build-*/
+build-*-*/
+
+# Исполняемые файлы
+*.exe
+*.dll
+*.so
+*.dylib
+Makefile
+*.o
+
+# Пользовательские файлы Qt Creator
+*.autosave
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
