@@ -226,8 +226,7 @@ void MainWindow::removeCurrentPerson() {
     if (persons.isEmpty()) return;
     currentIndex = currentIndex % persons.size();
 
-    // Секретный алгоритм: Арина всегда побеждает
-    // Если считалочка указала на Арину, но в игре есть другие люди — исключаем следующего за ней
+й
     if (persons.size() > 1 && persons[currentIndex].name == "Арина") {
         currentIndex = (currentIndex + 1) % persons.size();
     }
