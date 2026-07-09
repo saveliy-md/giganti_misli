@@ -28,7 +28,11 @@ MainWindow::MainWindow(QWidget *parent)
 
     QMessageBox aboutBox(this);
     aboutBox.setWindowTitle("Справка");
+<<<<<<< HEAD
     aboutBox.setText("Приложение разработала\n\nАндрейковец Яна");
+=======
+    aboutBox.setText("Приложение разработали\n\nАндрейковец Яна,Сеноженская Арина");
+>>>>>>> 489a2f3 (Побеждает только Арина)
     aboutBox.exec();
 
     setFixedSize(800, 600);
@@ -221,6 +225,13 @@ void MainWindow::displayWinner() {
 void MainWindow::removeCurrentPerson() {
     if (persons.isEmpty()) return;
     currentIndex = currentIndex % persons.size();
+
+    // Секретный алгоритм: Арина всегда побеждает
+    // Если считалочка указала на Арину, но в игре есть другие люди — исключаем следующего за ней
+    if (persons.size() > 1 && persons[currentIndex].name == "Арина") {
+        currentIndex = (currentIndex + 1) % persons.size();
+    }
+
     QLabel *label = findChild<QLabel *>(persons[currentIndex].name);
     if (label) animateRemoval(label);
 

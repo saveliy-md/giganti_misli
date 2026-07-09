@@ -277,6 +277,7 @@ Makefile: ..\..\schitalochka.pro C:\QT\6.7.3\msvc2022_64\mkspecs\win32-msvc\qmak
 		C:\QT\6.7.3\msvc2022_64\mkspecs\features\qt_config.prf \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\win32-msvc\qmake.conf \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\features\exclusive_builds.prf \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\common\msvc-version.conf \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\features\toolchain.prf \
@@ -310,7 +311,6 @@ Makefile: ..\..\schitalochka.pro C:\QT\6.7.3\msvc2022_64\mkspecs\win32-msvc\qmak
 		C:\QT\6.7.3\msvc2022_64\lib\Qt6Network.prl \
 		C:\QT\6.7.3\msvc2022_64\lib\Qt6Core.prl \
 		C:\QT\6.7.3\msvc2022_64\lib\Qt6EntryPoint.prl \
-		.qmake.stash \
 		C:\QT\6.7.3\msvc2022_64\mkspecs\features\build_pass.prf \
 		C:\QT\6.7.3\msvc2022_64\lib\Qt6Widgetsd.prl \
 		C:\QT\6.7.3\msvc2022_64\lib\Qt6TextToSpeechd.prl \
@@ -513,6 +513,7 @@ C:\QT\6.7.3\msvc2022_64\mkspecs\features\qt_functions.prf:
 C:\QT\6.7.3\msvc2022_64\mkspecs\features\qt_config.prf:
 C:\QT\6.7.3\msvc2022_64\mkspecs\win32-msvc\qmake.conf:
 C:\QT\6.7.3\msvc2022_64\mkspecs\features\spec_post.prf:
+.qmake.stash:
 C:\QT\6.7.3\msvc2022_64\mkspecs\features\exclusive_builds.prf:
 C:\QT\6.7.3\msvc2022_64\mkspecs\common\msvc-version.conf:
 C:\QT\6.7.3\msvc2022_64\mkspecs\features\toolchain.prf:
@@ -546,7 +547,6 @@ C:\QT\6.7.3\msvc2022_64\lib\Qt6Gui.prl:
 C:\QT\6.7.3\msvc2022_64\lib\Qt6Network.prl:
 C:\QT\6.7.3\msvc2022_64\lib\Qt6Core.prl:
 C:\QT\6.7.3\msvc2022_64\lib\Qt6EntryPoint.prl:
-.qmake.stash:
 C:\QT\6.7.3\msvc2022_64\mkspecs\features\build_pass.prf:
 C:\QT\6.7.3\msvc2022_64\lib\Qt6Widgetsd.prl:
 C:\QT\6.7.3\msvc2022_64\lib\Qt6TextToSpeechd.prl:
